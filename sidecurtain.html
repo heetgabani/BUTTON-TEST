@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OTPLESS Buttons</title>
+    <title>OTPLESS SIDE CURTAIN</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -14,9 +14,8 @@
             height: 100vh;
             margin: 0;
             background-color: #f4f4f4;
-            gap: 20px;
         }
-        .button-container {
+        #otpless {
             margin: 20px;
         }
         button {
@@ -24,23 +23,12 @@
             font-size: 16px;
             cursor: pointer;
         }
-        .button-container {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            gap: 20px; 
-        }
     </style>
 </head>
 <body>
 
-    <div class="button-container">
-        <div id="otpless-center" data-type="CENTER">
-            <button>CENTER</button>
-        </div>
-        <div id="otpless-side-curtain" data-type="SIDE_CURTAIN">
-            <button>SIDE CURTAIN</button>
-        </div>
+    <div id="otpless" data-type="SIDE_CURTAIN">
+        <button>SIDE CURTAIN</button>
     </div>
 
     <script
